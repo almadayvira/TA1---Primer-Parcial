@@ -7,6 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $nombre = $_POST['nombre'];
+    $apellido = $_POST['apellido'];
+    $telefono = $_POST['telefono'];
+    $edad = $_POST['edad'];
+    $fecha_nac = $_POST['fecha_nac'];
+    $email = $_POST['email'];
+    echo $nombre;
+    }
+?>
+
+
 </body>
 </html>
