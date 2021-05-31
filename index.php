@@ -8,6 +8,21 @@
 </head>
 <body>
     <form id="datos" action="./formulario.php" method="post">
+    Nombre      <input  name="nombre" id="nombre">
+    <br>
+    Apellido         <input  name="apellido" id="apellido">     
+    <br>
+    Telefono        <input name="telefono" id="telefono"> 
+    <br>    
+    Edad        <input name="edad" id="edad"> 
+    <br>    
+    Fecha de nacimiento <input  name="edad" id="edad"> 
+    <br>    
+    Email       <input name="email" id="email"> 
+    <br>
+    <br>
+    <button type="sumbit">Visualizar</button>
     </form>
 
+    
 </html>
